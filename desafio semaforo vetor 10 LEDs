@@ -1,0 +1,118 @@
+int led[5];
+
+void setup()
+{
+  led[0] = 13;//vermelho
+  led[1] = 12;//amarelo
+  led[2] = 11;//verde
+  led[3] = 7;//pedestre verm
+  led[4] = 6;//pedestre verde
+  led[5] = 10;//vermelho
+  led[6] = 9;//amarelo
+  led[7] = 8;//verde
+  led[8] = 5;//pedestre verm
+  led[9] = 4;//pedestre verde
+  
+  pinMode(led[0], OUTPUT);//vermelho
+  pinMode(led[1], OUTPUT);//amarelo
+  pinMode(led[2], OUTPUT);//verde
+  pinMode(led[3], OUTPUT);//pedestre verm
+  pinMode(led[4], OUTPUT);//pedestre verde
+  pinMode(led[5], OUTPUT);//vermelho
+  pinMode(led[6], OUTPUT);//amarelo
+  pinMode(led[7], OUTPUT);//verde
+  pinMode(led[8], OUTPUT);//pedestre verm
+  pinMode(led[9], OUTPUT);//pedestre verde
+}
+
+void loop()
+{
+ //PRIMEIRO
+ digitalWrite(led[0], HIGH);//vermelho
+ digitalWrite(led[1], LOW);//amarelo
+ digitalWrite(led[2], LOW);//verde
+ digitalWrite(led[3], LOW);//pedestre verm
+ digitalWrite(led[4], HIGH);//pedestre verde
+ digitalWrite(led[5], LOW);//vermelho
+ digitalWrite(led[6], LOW);//amarelo
+ digitalWrite(led[7], HIGH);//verde
+ digitalWrite(led[8], HIGH);//pedestre verm
+ digitalWrite(led[9], LOW);//pedestre verde
+ delay(1000);//SEGUNDO
+ digitalWrite(led[0], HIGH);//vermelho
+ digitalWrite(led[1], LOW);//amarelo
+ digitalWrite(led[2], LOW);//verde
+ digitalWrite(led[3], LOW);//pedestre verm
+ digitalWrite(led[4], HIGH);//pedestre verde
+ digitalWrite(led[5], LOW);//vermelho
+ digitalWrite(led[6], HIGH);//amarelo
+ digitalWrite(led[7], LOW);//verde
+ digitalWrite(led[8], HIGH);//pedestre verm
+ digitalWrite(led[9], LOW);//pedestre verde
+ delay(1000);//TERCEIRO
+ digitalWrite(led[0], HIGH);//vermelho
+ digitalWrite(led[1], LOW);//amarelo
+ digitalWrite(led[2], LOW);//verde
+ digitalWrite(led[3], LOW);//pedestre verm
+ digitalWrite(led[4], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[4], LOW);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[4], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[4], LOW);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[4], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[4], LOW);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[5], LOW);//vermelho
+ digitalWrite(led[6], HIGH);//amarelo
+ digitalWrite(led[7], LOW);//verde
+ digitalWrite(led[8], HIGH);//pedestre verm
+ digitalWrite(led[9], LOW);//pedestre verde
+ delay(1000);//QUARTO
+ digitalWrite(led[0], LOW);//vermelho
+ digitalWrite(led[1], LOW);//amarelo
+ digitalWrite(led[2], HIGH);//verde
+ digitalWrite(led[3], HIGH);//pedestre verm
+ digitalWrite(led[4], LOW);//pedestre verde
+ digitalWrite(led[5], HIGH);//vermelho
+ digitalWrite(led[6], LOW);//amarelo
+ digitalWrite(led[7], LOW);//verde
+ digitalWrite(led[8], LOW);//pedestre verm
+ digitalWrite(led[9], HIGH);//pedestre verde
+ delay(1000);//QUINTO
+ digitalWrite(led[0], LOW);//vermelho
+ digitalWrite(led[1], HIGH);//amarelo
+ digitalWrite(led[2], LOW);//verde
+ digitalWrite(led[3], HIGH);//pedestre verm
+ digitalWrite(led[4], LOW);//pedestre verde
+ digitalWrite(led[5], HIGH);//vermelho
+ digitalWrite(led[6], LOW);//amarelo
+ digitalWrite(led[7], LOW);//verde
+ digitalWrite(led[8], LOW);//pedestre verm
+ digitalWrite(led[9], HIGH);//pedestre verde
+ delay(1000);//SEXTO
+ digitalWrite(led[0], LOW);//vermelho
+ digitalWrite(led[1], HIGH);//amarelo
+ digitalWrite(led[2], LOW);//verde
+ digitalWrite(led[3], HIGH);//pedestre verm
+ digitalWrite(led[4], LOW);//pedestre verde
+ digitalWrite(led[5], HIGH);//vermelho
+ digitalWrite(led[6], LOW);//amarelo
+ digitalWrite(led[7], LOW);//verde
+ digitalWrite(led[8], LOW);//pedestre verm
+ digitalWrite(led[9], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[9], LOW);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[9], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[9], LOW);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[9], HIGH);//pedestre verde//PISCAR
+ delay(200);
+ digitalWrite(led[9], LOW);//pedestre verde//PISCAR
+ delay(200);
+}
