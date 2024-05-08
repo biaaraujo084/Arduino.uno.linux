@@ -1,0 +1,109 @@
+void setup() {
+  // Configura os pinos do display de 7 segmentos como saída
+  pinMode(0, OUTPUT);
+  pinMode(1, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, HIGH); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, LOW); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, LOW); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, LOW); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, LOW); //F
+  digitalWrite(6, LOW); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, LOW); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, HIGH); //E
+  digitalWrite(5, LOW); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+ 
+
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, LOW); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+
+   digitalWrite(0, LOW); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, LOW); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, LOW); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, LOW); //A
+  digitalWrite(1, LOW); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, HIGH); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, LOW); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, LOW); //F
+  digitalWrite(6, LOW); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, HIGH); //D
+  digitalWrite(4, HIGH); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+   digitalWrite(0, HIGH); //A
+  digitalWrite(1, HIGH); //B
+  digitalWrite(2, HIGH); //C
+  digitalWrite(3, LOW); //D
+  digitalWrite(4, LOW); //E
+  digitalWrite(5, HIGH); //F
+  digitalWrite(6, HIGH); //G
+  digitalWrite(7, HIGH); //DP
+  delay(1000);
+
+}
